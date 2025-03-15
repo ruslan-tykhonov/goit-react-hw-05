@@ -1,0 +1,45 @@
+.btn {
+  /* padding: 0;
+    margin: 0; */
+  background-color: transparent;
+  border: none;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.btnIcon {
+  height: 25px;
+  width: 25px;
+  transition: transform 0.2s ease;
+}
+.btn:hover {
+  transform: scale(0.97);
+}
+
+.btnIcon:hover {
+  transform: scale(0.97);
+}
+.mainWrapper {
+  display: flex;
+  column-gap: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15),
+    inset 0px 5px 10px rgba(0, 0, 0, 0.05);
+}
+.imgStyle {
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
+  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.2));
+}
+.addInfo{
+  padding: 0 20px;
+  font-weight: 600;
+}
+.linkAddInfo{
+  padding: 0 40px;
+}
+.detailPageWrap{
+  margin-top: 15px;
+}
